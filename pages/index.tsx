@@ -2,6 +2,7 @@ import { Navbar } from '../components/Navbar'
 import { Portfolio } from '../components/portfolio/Portfolio'
 import { Features } from '../components/feature/Features'
 import { ImageWithText } from '../components/ImageWithText'
+import { Profile } from '../components/Profile'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <ImageWithText />
       <Portfolio />
       <Features />
+      <Profile />
     </div>
   )
 }
