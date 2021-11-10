@@ -1,22 +1,17 @@
 import React from 'react'
-import { Layout } from '../template/Layout'
 import { PortfolioImage } from './PortfolioImage'
+import { Layout } from '../template/Layout'
 
 export const Portfolio = () => {
-  const urls = [
-    '/sketch.jpg',
-    '/talk.jpg',
-    '/webcamp-mother.png',
-    '/webcamp.png',
-    '/websuku.png',
-    '/write.jpg',
-  ]
   return (
-    <Layout background="bg-gray-100" title="Portfolio">
+    <Layout title="Portfolio">
       <div className="w-full flex flex-wrap justify-center">
-        {urls.map((src) => (
-          <PortfolioImage src={src} key={src} />
-        ))}
+        <PortfolioImage src="/sketch.jpg" />
+        <PortfolioImage src="/talk.jpg" />
+        <PortfolioImage src="/webcamp-mother.png" />
+        <PortfolioImage src="/webcamp.png" className="hidden md:block" />
+        <PortfolioImage src="/websuku.png" className="hidden md:block" />
+        <PortfolioImage src="/write.jpg" className="hidden md:block" />
       </div>
     </Layout>
   )

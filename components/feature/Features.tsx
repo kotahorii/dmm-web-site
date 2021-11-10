@@ -6,7 +6,7 @@ import { Layout } from '../template/Layout'
 
 export const Features = () => {
   return (
-    <Layout title='Feature'>
+    <Layout title="Feature">
       <div className="w-full flex flex-row space-x-2 justify-center">
         <FeatureCard>
           <CodeIcon className="w-16 h-16 mb-1" />
