@@ -8,7 +8,7 @@ import { Footer } from '../components/Footer'
 
 export default function Home() {
   return (
-    <div className="flex flex-col w-screen min-h-screen">
+    <div className="flex flex-col w-screen justify-center items-center min-h-screen">
       <Navbar />
       <ImageWithText />
       <Portfolio />

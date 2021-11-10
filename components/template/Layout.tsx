@@ -13,9 +13,9 @@ export const Layout: VFC<Props> = ({
 }) => {
   return (
     <div
-      className={`w-screen flex flex-col py-24 justify-center items-center ${background}`}
+      className={`w-screen mx-auto flex flex-col py-24 justify-center items-center ${background}`}
     >
-      <div className="w-10/12 mx-auto flex flex-col items-center">
+      <div className="w-10/12 flex flex-col items-center">
         <p className="text-4xl font-semibold mb-2">{title}</p>
         <div className=" h-1 w-20 bg-red-400 mb-8"></div>
         <p className="text-center text-lg mb-8">

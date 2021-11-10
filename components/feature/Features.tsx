@@ -7,14 +7,14 @@ import { Layout } from '../template/Layout'
 export const Features = () => {
   return (
     <Layout title="Feature">
-      <div className="w-full flex flex-row space-x-2 justify-center">
-        <FeatureCard>
+      <div className="w-11/12 flex md:flex-row flex-col space-x-4 justify-center items-center">
+        <FeatureCard name="Strength1">
           <CodeIcon className="w-16 h-16 mb-1" />
         </FeatureCard>
-        <FeatureCard>
+        <FeatureCard name="Strength2">
           <DesktopComputerIcon className="w-16 h-16 mb-1" />
         </FeatureCard>
-        <FeatureCard>
+        <FeatureCard name="Strength3">
           <CogIcon className="w-16 h-16 mb-1" />
         </FeatureCard>
       </div>
