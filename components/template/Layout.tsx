@@ -18,7 +18,7 @@ export const Layout: VFC<Props> = ({
       <div className="w-10/12 flex flex-col items-center">
         <p className="text-4xl font-semibold mb-2">{title}</p>
         <div className=" h-1 w-20 bg-red-400 mb-8"></div>
-        <p className="text-center text-lg mb-8">
+        <p className="text-center text-lg mb-8 md:w-10/12 w-8/12">
           It is a long established fact that a reader will be distracted by the
           readable
           <br /> content of a page when looking at its layout.

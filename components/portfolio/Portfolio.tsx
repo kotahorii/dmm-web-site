@@ -4,7 +4,7 @@ import { Layout } from '../template/Layout'
 
 export const Portfolio = () => {
   return (
-    <Layout title="Portfolio">
+    <Layout title="Portfolio" background="bg-gray-100">
       <div className="w-full flex flex-wrap justify-center">
         <PortfolioImage src="/sketch.jpg" />
         <PortfolioImage src="/talk.jpg" />
