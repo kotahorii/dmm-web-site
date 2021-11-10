@@ -2,7 +2,7 @@ import React from 'react'
 import { DesktopComputerIcon, CogIcon } from '@heroicons/react/solid'
 import { CodeIcon } from '@heroicons/react/outline'
 import { FeatureCard } from './FeatureCard'
-import { Layout } from '../Layout'
+import { Layout } from '../template/Layout'
 
 export const Features = () => {
   return (
