@@ -1,6 +1,6 @@
 import { Navbar } from '../components/Navbar'
-import { Portfolio } from '../components/Portfolio'
-import { Features } from '../components/Features'
+import { Portfolio } from '../components/portfolio/Portfolio'
+import { Features } from '../components/feature/Features'
 import { ImageWithText } from '../components/ImageWithText'
 
 export default function Home() {
